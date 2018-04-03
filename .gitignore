@@ -1,4 +1,5 @@
 /.idea
+/.idea/*
 /api/migrations
 /api/templates
 Entrance_Control.iml
