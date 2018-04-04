@@ -11,4 +11,4 @@ class SerRoute(ModelSerializer):
 class SerCoordinates(ModelSerializer):
     class Meta:
         model = Coordinates
-        fields = ('name', 'easting', 'northing')
+        fields = ('name', 'northing', 'easting', 'serial', 'control',)

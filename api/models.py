@@ -25,6 +25,8 @@ class Coordinates(models.Model):
     name = models.CharField(max_length=50)
     easting = models.CharField(max_length=10)
     northing = models.CharField(max_length=10)
+    serial = models.IntegerField()
+    control = models.BooleanField(default=0)
 
     def __str__(self):
         return self.name
