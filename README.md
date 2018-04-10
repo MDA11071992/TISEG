@@ -1,4 +1,4 @@
 # TISEG
 
-#it's commercial project
+it's commercial project
 
